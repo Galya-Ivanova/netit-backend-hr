@@ -1,0 +1,14 @@
+<div id="admin-editor">
+    <form method="POST" name="admin-jobs-editor">
+        <input class="form-input" type="text" placeholder="Jobs title"  name="admin-jobs-editor_jobs_title" id="jobs_title">
+        <input class="form-input" type="text" placeholder="Firmname"  name="admin-jobs-editor_firmname" id="firmname">
+        <textarea class="form-textarea h-150" placeholder="Jobs content" name="admin-jobs-editor_jobs_content" id="jobs_content"></textarea>
+
+        <select " id="admin-post-editor-category">
+             <option value="1">Category 1</option>
+        </select>
+
+        <input type="hidden" name="post_tokken" value="1">
+        <input class="button" type="button" onclock="submitForm()" name="jobs_submit">
+    </form>
+</div>

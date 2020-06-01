@@ -1,0 +1,65 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+input, textarea {
+    display: block;
+}
+
+.page-header {
+    padding     : 5px;
+}
+
+ul li a {
+   color: #fff; 
+}
+
+.button {
+    background    : #dedede;
+    text-transform: lowercase;
+    padding       : 3px;
+    cursor        : pointer;
+    display       : inline-block;
+}
+
+.form-input {
+    width  : 100%;
+    margin : 5px;
+    padding: 5px;
+}
+
+.form-textarea {
+    width  : 100%;
+    margin: 5px 6px;
+    padding: 5px 5px;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.wrapper {
+    margin      : auto;
+    margin-top  : 100px;
+    width       : 500px;
+}
+
+.message {
+    padding    : 5px;
+    font-weight: bold;
+}
+
+.error {
+    background: #ff7f50;
+}
+
+.success {
+    background: #00ff00
+}
+
+#content-fullview {
+    display: none;
+    background: #fea080;
+    padding: 25px;
+}

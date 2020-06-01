@@ -1,0 +1,44 @@
+<div id="main-menu">
+    <form style="margin-bottom: 16px">
+        <div class="mt-2">
+           <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                    <input id="search-jobpost" type="text" placeholder="Search by job category">
+                </div>
+                <div class="col-sm">
+                    <select id="search-jobpost-combobox">
+                        <option value="title">Search by Title</option>
+                        <option value="content">Search by Content</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <button class="btn-info" id="search-jobpost-action">Search</button>
+                    <button class="btn-danger" id="clear-jobpost-action">Clear</button>
+                </div>
+              </div>
+            </div>
+         </div>        
+    </form>
+
+    <div id="content-fullview">
+        <div id="content-fullview-jobpost"></div>
+        <div id="content-fullview-comment">
+            <form>
+                <textarea name="fullview-comment"></textarea>
+                <button id="fullview-comment-action">send CV</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="menu-item" class="component">
+
+        <ul class="group-list" id="menu-item-panel">
+
+        </ul>
+    </div>
+
+    <div id="content" class="component">
+    </div>
+</div>
+
