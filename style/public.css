@@ -1,0 +1,73 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.logo {
+    font-size   : 25px;
+    color       : #fff;
+}
+
+body {
+    background: #f6f7f7;
+}
+
+#app-header {
+    background  : #2B2970;
+}
+
+#main-menu {
+    margin      : auto;
+    margin-top  : 150px;
+    width       : 500px;
+}
+.job-container {
+    margin      : auto;
+    margin-top  : 150px;
+    width       : 500px;
+}
+
+#menu-item {
+        width: max-content;
+}
+
+#content {
+    margin-top: 25px;
+}
+
+/*HEDADER RELATED*/
+.component {
+    background : #fff;
+    border     : solid #dddddf 1px;
+}
+
+.group-list {
+    display: inline-block;
+}
+
+.group {
+    display       : inline-block;
+    margin-right  : 5px;
+    padding       : 10px;
+    text-transform: uppercase;
+    font-size     : 15px;
+}
+
+/*POST RELATED*/
+.job-posts {
+   padding      : 15px; 
+   border-bottom: solid #dedede 1px;
+}
+
+.post-title {
+    font-weight: bold;
+    margin     : 5px;
+}
+
+.post-date {
+    font-size: 12px;
+}
+
+.mt-2 {
+    margin-top: 5px;
+}

@@ -1,0 +1,6 @@
+var groupIndexController = function(){
+
+   
+}
+
+

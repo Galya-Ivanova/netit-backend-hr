@@ -1,0 +1,29 @@
+<div id="employer-editor" class="job-container">
+    <form method="POST" name="employer-jobs-editor">
+        <input class="form-input" 
+               type="text" 
+               placeholder="Jobs title"  
+               name="employer-jobs-editor_jobs_title" 
+               id="jobs_title">
+        <input class="form-input" 
+               type="text" 
+               placeholder="Firmname"  
+               name="employer-jobs-editor_firmname" 
+               id="firmname">
+        <textarea class="form-textarea h-150" 
+                  placeholder="Jobs content" 
+                  name="employer-jobs-editor_jobs_content" 
+                  id="jobs_content"></textarea>
+
+        <select " id="employer-post-editor-category">
+             <option value="1">Category 1</option>
+        </select>
+
+        <input type="hidden" name="post_tokken" value="1">
+        <input id   ="employer-jobs-editor-submit" 
+               class="button" 
+               type ="button" 
+               value ="Create jobpost"
+               name ="jobs_submit">
+    </form>
+</div>

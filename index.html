@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HR system</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/public.css">
+        <link rel="stylesheet" href="style/employer.css">
+    </head>
+    <body>
+       
+        <div id="app-header" class="page-header">
+            <h1 id="web-logo-placeholder" class="logo">HR</h1>
+            
+            <div id="public-placeholder" class="menu-placeholder">
+                <ul>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?index">Home</a></li>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?employer_registration">Company</a></li>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?employee_registration">Job applicant</a></li>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?login">Login</a></li>                     
+<!--                    <li><a href="employer.php?action=logout">Log out</a></li>-->
+                </ul>
+            </div>
+            
+            
+            <div id="employer-placeholder" class="menu-placeholder">
+                <ul>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?employer">Add new job</a></li>
+                    <li><a href="http://localhost/netit-backend-hr/index.html?jobpost">List job postings</a></li>                    
+                    <li onclick="logoutFromApplication()">Log out</li>
+                </ul>
+            </div>
+        </div>
+       
+        <div id="page-template"></div>
+        
+        <script src="scripts/client/netitquery.js"></script>
+        <script src="scripts/vendor/jquery.js"></script>
+
+        <script src="scripts/application/public/index/script.js"></script>
+        <script src="scripts/application/public/login/script.js"></script>
+        <script src="scripts/application/public/employee_registration/script.js"></script>
+        <script src="scripts/application/public/employer_registration/script.js"></script>
+        <script src="scripts/application/public/404/script.js"></script>
+        
+        <script src="scripts/application/admin/group/create/script.js"></script>
+        <script src="scripts/application/admin/group/index/script.js"></script>
+        <script src="scripts/application/admin/jobpost/create/script.js"></script>
+        <script src="scripts/application/admin/jobpost/index/script.js"></script>
+        
+        <script src="scripts/router/user_service.js"></script>
+        <script src="scripts/router/router.js"></script>
+    </body>
+</html>
